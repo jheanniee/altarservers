@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&family=Quicksand:wght@400;500&display=swap');
+
 * {
-    /* font-family: ; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,6 +11,7 @@
 }
 
 html {
+    font-family: 'Quicksand', sans-serif;
     overflow-x: hidden;
     scroll-padding-top: 7rem;
     scroll-behavior: smooth;
@@ -32,6 +34,7 @@ html {
 .header a {
     font-size: 1.3rem;
     color: black;
+    font-weight: 500;
 }
 
 .header ul li {
@@ -49,8 +52,9 @@ html {
     cursor: pointer;
 }
 
-.header .navbar .active{
+.header .navbar .active {
     color: red;
+    font-weight: 575;
 }
 
 .menu {
