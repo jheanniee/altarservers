@@ -1,7 +1,19 @@
+AOS.init({
+    duration: 900,
+    offset: 100,
+});
+
 document.querySelectorAll('.about .image .controls .control-btn').forEach(btn => {
     btn.onclick = () => {
         let src = btn.getAttribute('data-src');
         document.querySelector('.about .image .image').src = src;
+    }
+})
+
+document.querySelectorAll('.mission .image .controls .control-btn').forEach(btn => {
+    btn.onclick = () => {
+        let src = btn.getAttribute('data-src');
+        document.querySelector('.mission .image .image').src = src;
     }
 })
 

@@ -24,7 +24,7 @@ html {
     left: 0;
     right: 0;
     z-index: 1000;
-    box-shadow: 0 .2rem 1.5rem rgb(115, 127, 150);
+    box-shadow: 0 .2rem 1.5rem #7da1cc;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,9 +32,15 @@ html {
 }
 
 .header a {
-    font-size: 1.3rem;
     color: black;
+    font-size: 1.4rem;
     font-weight: 500;
+}
+
+.header .title {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 600;
 }
 
 .header ul li {
@@ -43,18 +49,17 @@ html {
 
 .header .navbar li a {
     font-size: 1.4rem;
-    color: black;
     margin-left: 2rem;
+    font-weight: 500;
 }
 
 .header .navbar a:hover {
-    color: rgb(38, 0, 255);
+    color: #47B5FF;
     cursor: pointer;
 }
 
 .header .navbar .active {
-    color: red;
-    font-weight: 575;
+    color: #1363DF;
 }
 
 .menu {
@@ -79,7 +84,7 @@ html {
 }
 
 .sub-menu a:hover {
-    background-color: #ddd;
+    background-color: #ebf8fd;
 }
 
 .menu:hover .sub-menu {
@@ -95,11 +100,16 @@ section {
 }
 
 .footer {
-    background: rgb(235, 238, 252);
+    background: #f1f9fc;
     text-align: center;
     font-size: 1.3rem;
-    padding: 1rem 1rem;
+    padding: .7rem .7rem;
     color: black;
+}
+
+.footer span {
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 @media (max-width:991px) {

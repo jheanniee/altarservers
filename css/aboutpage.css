@@ -1,20 +1,3 @@
-.names {
-    display: flex;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.names::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    clip-path: inset(47% 0 0 0);
-    z-index: -1;
-    height: 100%;
-}
-
 .about {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -25,7 +8,7 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     gap: 2rem;
-    padding-top: 12rem;
+    padding-top: 13.5rem;
 }
 
 .about .image {
@@ -49,14 +32,14 @@
     height: 2rem;
     width: 2rem;
     border-radius: 50%;
-    background: rgb(0, 0, 0);
+    background: #06283D;
     cursor: pointer;
     margin: .7rem;
-}
-
-.about .image .controls span:hover {
-    background: #302dff;
-}
+  }
+  
+  .about .image .controls span:hover {
+    background: #083e8f;
+  }
 
 .about .content {
     -webkit-box-flex: 1;
@@ -66,12 +49,10 @@
 }
 
 .about .content span {
-    color: #000000;
     font-size: 2rem;
 }
 
 .about .content h3 {
-    color: rgb(0, 0, 0);
     font-size: 3rem;
     margin-top: .5rem;
 }
@@ -79,7 +60,6 @@
 .about .content p {
     padding: 1rem 0;
     font-size: 1.4rem;
-    color: rgb(0, 0, 0);
     line-height: 1.7;
     text-align: justify;
 }
@@ -94,7 +74,6 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     gap: 2rem;
-    padding-top: 5rem;
 }
 
 .mission .image {
@@ -108,25 +87,6 @@
     width: 100%;
 }
 
-.mission .image .controls {
-    text-align: center;
-    padding: 2rem 0;
-}
-
-.mission .image .controls span {
-    display: inline-block;
-    height: 2rem;
-    width: 2rem;
-    border-radius: 50%;
-    background: rgb(0, 0, 0);
-    cursor: pointer;
-    margin: .7rem;
-}
-
-.mission .image .controls span:hover {
-    background: #302dff;
-}
-
 .mission .content {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 42rem;
@@ -134,41 +94,50 @@
     margin-bottom: 5rem;
 }
 
+.mission .content i {
+    padding-right: 1.3rem;
+    font-size: 1.3rem;
+}
+
 .mission .content span {
-    color: #000000;
     font-size: 2rem;
 }
 
-.mission .content h3 {
-    color: rgb(0, 0, 0);
-    font-size: 3rem;
-    margin-top: .5rem;
+.mission .content span {
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-align: center;
 }
 
 .mission .content p {
     padding: 1rem 0;
     font-size: 1.4rem;
-    color: rgb(0, 0, 0);
-    line-height: 1.7;
+    line-height: 2;
+    padding-left: 0.8rem;
+    padding-right: 1rem;
     text-align: justify;
 }
 
 .box-container {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(10rem, 1fr))[auto-fit];
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    -ms-grid-columns: (minmax(5rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    margin-top: -2rem;
 }
 
-/* .names {
-    position: relative;  
-    height: 450px;
-    width: 1075px;
+.box-container .position {
+    margin-bottom: -10rem;
+}
+
+.names {
     display: flex;
+    min-height: 40vh;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-} */
+    position: relative;
+    margin-bottom: 5rem;
+}
 
 .swiper {
     width: 950px;
@@ -176,12 +145,11 @@
 
 .card {
     position: relative;
-    background: #fff;
+    background: #f9fdff;
     border-radius: 20px;
     margin: 20px 0;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
-
 
 .card .card-content {
     display: flex;
@@ -205,22 +173,21 @@ section .card .image img {
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
-    border: 3px solid #fff;
 }
 
-.card .name-profession {
+.card .name-position {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
 }
 
-.name-profession .name {
+.name-position .name {
     font-size: 20px;
     font-weight: 600;
 }
 
-.name-profession .profession {
+.name-position .position {
     font-size: 15px;
     font-weight: 500;
 }
@@ -229,57 +196,45 @@ section .card .image img {
     position: absolute;
 }
 
-.swiper-pagination-bullet {
-    height: 7px;
-    width: 26px;
-    border-radius: 25px;
-    background: #7d2ae8;
-}
-
 .swiper-button-next,
 .swiper-button-prev {
     opacity: 0.7;
-    color: #7d2ae8;
+    color: #06283D;
     transition: all 0.3s ease;
 }
 
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
     opacity: 1;
-    color: #7d2ae8;
-}
-
-.footer {
-    background: rgb(235, 238, 252);
-    text-align: center;
-    font-size: 1.3rem;
-    padding: 1rem 1rem;
-    color: black;
+    color: #06283D;
 }
 
 @media (max-width:991px) {
-    html {
-        font-size: 55%;
+    .box-container {
+        margin-top: -4rem;
     }
 
-    .header {
-        padding: 2rem;
-    }
-
-    section {
-        padding: 2rem;
+    .box-container .position {
+        margin-bottom: -3rem;
     }
 }
 
 @media (max-width:768px) {
+    .box-container {
+        margin-top: -8rem;
+    }
 
-    .home .image {
-        padding-right: 5rem;
+    .box-container .position {
+        margin-bottom: -3rem;
     }
 }
 
 @media (max-width:450px) {
-    html {
-        font-size: 50%;
+    .box-container {
+        margin-top: -8rem;
+    }
+
+    .box-container .position {
+        margin-bottom: -3rem;
     }
 }

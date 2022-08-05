@@ -70,13 +70,13 @@
   height: 2rem;
   width: 2rem;
   border-radius: 50%;
-  background: rgb(0, 0, 0);
+  background: #06283D;
   cursor: pointer;
   margin: .7rem;
 }
 
 .about .image .controls span:hover {
-  background: #302dff;
+  background: #083e8f;
 }
 
 .about .content {
@@ -87,12 +87,10 @@
 }
 
 .about .content span {
-  color: #000000;
   font-size: 2rem;
 }
 
 .about .content h3 {
-  color: rgb(0, 0, 0);
   font-size: 3rem;
   margin-top: .5rem;
 }
@@ -100,7 +98,6 @@
 .about .content p {
   padding: 1rem 0;
   font-size: 1.4rem;
-  color: rgb(0, 0, 0);
   line-height: 1.7;
   text-align: justify;
 }
@@ -110,15 +107,15 @@
   display: inline-block;
   padding: 1rem 3rem;
   font-size: 1.3rem;
-  color: rgb(0, 0, 0);
-  border: 0.2rem solid rgb(0, 0, 0);
+  color: #06283D;
+  border: 0.2rem solid #06283D;
   border-radius: 5rem;
   cursor: pointer;
   background: none;
 }
 
 .btn:hover {
-  background: #000000;
+  background: #06283D;
   color: rgb(255, 255, 255);
 }
 
@@ -153,7 +150,7 @@
 .modules .box-container .box {
   border-radius: 1rem;
   overflow: hidden;
-  background: rgb(235, 238, 252);
+  background: #f1f9fc;
 }
 
 .modules .box-container .box:hover img {
@@ -180,19 +177,17 @@
 
 .modules .box-container .box .content h3 {
   font-size: 1.7rem;
-  color: rgb(0, 0, 0);
 }
 
 .modules .box-container .box .content p {
   padding: 1rem 0;
-  font-size: 1.1rem;
-  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
   line-height: 1.4;
 }
 
 .modules .box-container .box .content a {
   font-size: 1.15rem;
-  color: rgba(0, 0, 0, 0.6);
+  color: #06283D;
 }
 
 .modules .box-container .box .content a:hover i {

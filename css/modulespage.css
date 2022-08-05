@@ -75,7 +75,7 @@
 .box-container .box {
     border-radius: 1rem;
     overflow: hidden;
-    background: rgb(243, 243, 243);
+    background: #f1f9fc;
 }
 
 .box-container .box:hover img {
@@ -118,7 +118,7 @@
 .sacraments-box-container .box {
     border-radius: 1rem;
     overflow: hidden;
-    background: rgb(243, 243, 243);
+    background: #f1f9fc;
 }
 
 .sacraments-box-container .box:hover img {
