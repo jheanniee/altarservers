@@ -10,13 +10,6 @@ document.querySelectorAll('.about .image .controls .control-btn').forEach(btn =>
     }
 })
 
-document.querySelectorAll('.mission .image .controls .control-btn').forEach(btn => {
-    btn.onclick = () => {
-        let src = btn.getAttribute('data-src');
-        document.querySelector('.mission .image .image').src = src;
-    }
-})
-
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
     spaceBetween: 30,
