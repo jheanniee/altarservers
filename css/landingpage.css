@@ -39,9 +39,11 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   gap: 2rem;
@@ -119,7 +121,7 @@
   color: rgb(255, 255, 255);
 }
 
-.modules{
+.modules {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
@@ -142,6 +144,7 @@
 .modules .box-container {
   display: -ms-grid;
   display: grid;
+
   -ms-grid-columns: (minmax(20rem, 1fr))[auto-fit];
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 1.7rem;
@@ -166,6 +169,7 @@
 .modules .box-container .box .image img {
   height: 100%;
   width: 100%;
+
   -o-object-fit: cover;
   object-fit: cover;
 }

@@ -2,9 +2,11 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     gap: 2rem;
@@ -35,11 +37,11 @@
     background: #06283D;
     cursor: pointer;
     margin: .7rem;
-  }
-  
-  .about .image .controls span:hover {
+}
+
+.about .image .controls span:hover {
     background: #083e8f;
-  }
+}
 
 .about .content {
     -webkit-box-flex: 1;
@@ -68,9 +70,11 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     gap: 2rem;
@@ -121,6 +125,7 @@
 .box-container {
     display: -ms-grid;
     display: grid;
+    
     -ms-grid-columns: (minmax(5rem, 1fr))[auto-fit];
     grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
     margin-top: -2rem;

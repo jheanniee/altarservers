@@ -66,6 +66,7 @@
 .box-container {
     display: -ms-grid;
     display: grid;
+    
     -ms-grid-columns: (minmax(10rem, 1fr))[auto-fit];
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap: 1.7rem;
@@ -91,6 +92,7 @@
 .box-container .box .image img {
     height: 100%;
     width: 100%;
+
     -o-object-fit: cover;
     object-fit: cover;
 }
@@ -109,6 +111,7 @@
 .sacraments-box-container {
     display: -ms-grid;
     display: grid;
+
     -ms-grid-columns: (minmax(10rem, 1fr))[auto-fit];
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 1.7rem;
@@ -134,6 +137,7 @@
 .sacraments-box-container .box .image img {
     height: 100%;
     width: 100%;
+
     -o-object-fit: cover;
     object-fit: cover;
 }
